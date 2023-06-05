@@ -1,13 +1,13 @@
-**News App:**
+**News App:<br />**
 A web application built with React that fetches news articles from the News API and provides news based on different categories. Users can read the detailed articles by redirecting to the original source and bookmark articles to read later.
 
-**Features:**
+**Features:<br />**
 Fetches news articles from the News API
 Provides news articles based on categories such as sports, tech, health, etc.
 Allows users to read the detailed article by redirecting to the original source
 Bookmark articles to read later
 
-**Installation:**
+**Installation:<br />**
 To run the application locally, you need to have Node.js and npm (Node Package Manager) installed on your machine. Then, follow these steps:
 
 Clone this repository to your local machine using git clone https://github.com/your-username/news-app.git.
@@ -21,7 +21,7 @@ REACT_APP_NEWS_API_KEY=YOUR_API_KEY
 Start the development server with npm start.
 Open your browser and visit http://localhost:3000 to access the application.
 
-**Usage:**
+**Usage:<br />**
 Once the application is running, you can use the following features:
 
 The home page displays a list of news articles from various categories. Click on a category to view news articles specific to that category.
