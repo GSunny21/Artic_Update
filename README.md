@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+**News App**
+A web application built with React that fetches news articles from the News API and provides news based on different categories. Users can read the detailed articles by redirecting to the original source and bookmark articles to read later.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Features**
+Fetches news articles from the News API
+Provides news articles based on categories such as sports, tech, health, etc.
+Allows users to read the detailed article by redirecting to the original source
+Bookmark articles to read later
 
-## Available Scripts
+**Installation**
+To run the application locally, you need to have Node.js and npm (Node Package Manager) installed on your machine. Then, follow these steps:
 
-In the project directory, you can run:
+Clone this repository to your local machine using git clone https://github.com/your-username/news-app.git.
+Navigate to the project directory: cd news-app.
+Install the required dependencies by running npm install.
+Obtain an API key from News API by signing up for an account.
+Create a .env file in the project root directory and add the following line, replacing YOUR_API_KEY with your actual News API key:
+makefile
+Copy code
+REACT_APP_NEWS_API_KEY=YOUR_API_KEY
+Start the development server with npm start.
+Open your browser and visit http://localhost:3000 to access the application.
 
-### `npm start`
+**Usage**
+Once the application is running, you can use the following features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The home page displays a list of news articles from various categories. Click on a category to view news articles specific to that category.
+Click on a news article to read the detailed article on the original source website.
+To bookmark an article for later reading, click the bookmark icon on the news article. Bookmarked articles can be accessed from the bookmarks section.
