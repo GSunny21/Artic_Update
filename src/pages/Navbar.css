@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+
+.navbar{
+    background-color: #c73737;
+}
+
+.custom-name{
+    background-color: white !important;
+    box-shadow: 5px 5px 60px rgb(7, 8, 10) inset !important;
+}
+
+.links{
+    font-size: 18px;
+    font-weight: 900 !important;
+    color: rgb(7, 8, 10) !important;
+    transition: 0.3s !important;
+}
+
+.site-name{
+    font-size: 22px;
+    font-weight: 900;
+    color: rgb(7, 8, 10) !important;
+}
+
+.links:hover{
+    text-shadow: 2px 2px 5px white !important;
+    transition: 0.3s !important;
+    scale: 1.05 !important;
+    transform: translateX(-3px) !important;
+    color: rgb(7, 8, 10) !important;
+}

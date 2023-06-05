@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
+body{
+    /* background-color: #A5D7E8; */
+    background-color: #122333;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.card{
+    box-sizing: border-box;
+    background-color: #182b3c;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition: height 0.3s;
+    color: white;
+    box-shadow: 8px 8px 8px #122130;
+}
+
+.card-img {
+    position: relative;
+    height: 200px;
+    margin: 10px; 
+}
+
+.cover-img {
+    object-fit: fill; 
+    object-position: center; /* Adjust based on your desired image position */
+}
+  
+.btn{
+    width: 120px;
+    top: auto;
+    margin-left: 75px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #182b3c;
+    color: #49a2d2;
+    padding: 10px;
+    height: 0;
+    transition: height 0.8s;
+}
+
+.card-body:hover .overlay {
+    height: 60%; 
+}
+
+.source{
+    text-align: center;
+    color: white;
+    background-color: #2eac68;
+    background-color: #2eac68;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.author{
+    color: white;
+}
+
+.bookmark{ 
+    top: 0px !important;
+    right: 20px !important;
+    position: absolute; 
+    height: 38px; 
+    width: 20px; 
+    padding: 0px; 
+    border-radius: 3px 3px 5px 5px;
+}
