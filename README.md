@@ -2,10 +2,10 @@
 A web application built with React that fetches news articles from the News API and provides news based on different categories. Users can read the detailed articles by redirecting to the original source and bookmark articles to read later.
 
 **Features:<br />**
-Fetches news articles from the News API
-Provides news articles based on categories such as sports, tech, health, etc.
-Allows users to read the detailed article by redirecting to the original source
-Bookmark articles to read later
+Fetches news articles from the News API <br />
+Provides news articles based on categories such as sports, tech, health, etc. <br />
+Allows users to read the detailed article by redirecting to the original source <br />
+Bookmark articles to read later <br />
 
 **Installation:<br />**
 To run the application locally, you need to have Node.js and npm (Node Package Manager) installed on your machine. Then, follow these steps:
