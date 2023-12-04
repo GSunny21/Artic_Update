@@ -1,4 +1,4 @@
-**News App:<br />**
+**Artic Update - News App:<br />**
 A web application built with React that fetches news articles from the News API and provides news based on different categories. Users can read the detailed articles by redirecting to the original source and bookmark articles to read later.
 
 **Features:<br />**
